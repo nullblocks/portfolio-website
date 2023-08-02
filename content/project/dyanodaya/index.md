@@ -1,7 +1,7 @@
 ---
 title: "Dyanodaya"
 subtitle: "❗❗❗ Work in Progress ...❗❗❗"
-summary: "A Better way of learning with help of AI and LLM .Explain any topic an easy way , create example , analogy and genrated related diagram automatically  "
+summary: "A Better way of learning with help of AI and LLM .Explain any topic an easy way , create example , analogy and generated related diagram automatically with help of stable diffusion . "
 authors: []
 tags: ["ML" , "LLM" ,"GPT" , "learning" ]
 categories: []
