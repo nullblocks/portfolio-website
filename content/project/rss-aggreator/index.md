@@ -3,9 +3,10 @@
 
 title: "Rss Aggreator"
 subtitle: ""
-summary: ""
+summary: "API created using golang to aggregate RSS feed save in postgress DB and
+show specific feed users have subscribed"
 authors: []
-tags: []
+tags: [golang,rss-feed]
 categories: []
 date: 2023-08-03T02:59:20+05:30
 lastmod: 2023-08-03T02:59:20+05:30
@@ -27,3 +28,5 @@ image:
 #   Otherwise, set `projects = []`.
 projects: []
 ---
+Discover an RSS aggregator using Golang, a versatile programming language known for its efficiency. This project involved developing an API that aggregates RSS feeds, stores them in a PostgreSQL database, and offers personalized subscriptions for users. By combining web scraping, Golang's concurrency features, and smart data management, the project showcases the power of technology in simplifying content consumption.
+
