@@ -45,7 +45,7 @@ I am aware that cuckoo sandbox is difficult to install due to huge dependency so
 {{% callout note %}}
 Watch Cuckoo Sandbox Installation by clicking on Image 👇👇👇
 {{% /callout  %}}
-[![Watch the video](thumbnail.png!)](https://youtu.be/wnMy73SlUnc?si=okSYs7X3cvBcP8zT)
+[![Watch the video](thumbnail.png)](https://youtu.be/wnMy73SlUnc?si=okSYs7X3cvBcP8zT)
 <!-- [![Watch the video](/project/dyanodaya/Home.png)](https://youtu.be/d_WhG0vqCr4) -->
 
 
