@@ -3,14 +3,16 @@
 
 title: "Ransomeware Detection"
 subtitle: "❗❗❗ Research of Major Project ❗❗❗"
-summary: "Detecting ransomeware and their families by doing dynamic analyisis & observing paranoia activity . "
+summary: "Detecting ran![Alt text](image.png)someware and their families by doing dynamic analyisis & observing paranoia activity . "
 authors: []
-tags: [ML , python]
+tags: [ML , python ,Ransomware , malware , virtualizaion , sandbox .]
 categories: []
 date: 2023-08-03T02:40:27+05:30
 lastmod: 2023-08-03T02:40:27+05:30
 featured: false
 draft: false
+
+url_video: "https://youtu.be/wnMy73SlUnc?si=okSYs7X3cvBcP8zT"
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
@@ -27,17 +29,34 @@ image:
 #   Otherwise, set `projects = []`.
 projects: []
 ---
-While doing Research our Guide share two paper related to this approach . 
+I decided to create similar product like [VirusTotal](https://virustotal.com) . 
 
-### Paper1 
+User will upload any file to [platfrom](http://ransomaware.xyz) that can be normal or malware file , then file/exe will excuted in virtual machine and cuckoo sandbox will generate behavioral analysis (activities, apicall's or system call by that exe file) and this analysis act as feature set for ML model and it will predict it is ransomware or normal file also provide log and dynamic analysis data . 
+
+# Architecture 
+Architecture we are goin to implement / follow 
+![](Archi.png)
+
+
+
+# Cuckoo Sandbox Installation video
+I am aware that cuckoo sandbox is difficult to install due to huge dependency so i recorded the video for referance . 
+
+{{% callout note %}}
+Watch Cuckoo Sandbox Installation by clicking on Image 👇👇👇
+{{% /callout  %}}
+[![Watch the video](thumbnail.png!)](https://youtu.be/wnMy73SlUnc?si=okSYs7X3cvBcP8zT)
+[![Watch the video](/project/dyanodaya/Home.png)](https://youtu.be/d_WhG0vqCr4)
+
+
+### Referance Paper1 
 Link of paper1 [https://ieeexplore.ieee.org/document/9536608](https://ieeexplore.ieee.org/document/9536608)
 
 Paper In short : It classify the type of ransomeware family (out of 5 family used to train model ) from doing dynamic analysisi or observing paranoia activity / API calls . 
 
-### Paper 2
+### Referance Paper 2
 Link of paper [https://doi.org/10.1016/j.jksuci.2020.06.012](https://doi.org/10.1016/j.jksuci.2020.06.012)
 
-Architecture we are goin to implement / follow 
-![](Archi.png)
+
 
 We can also explore the hybrid approch i.e static and dynamic analysis to find ransomeware and then identify it's family . 
