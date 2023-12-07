@@ -37,7 +37,7 @@ User will upload any file to [platfrom](http://ransomaware.xyz) that can be norm
 Architecture we are goin to implement / follow 
 ![](Archi.png)
 
-So from above image we understand user will upload file , we check hash will our signautre repositry (contain hash of multiple malware ) and it will proceed to Dynamic analyisi . which means file will be executed inside a VM machine and [cuckoo sandbox](https://cuckoosandbox.org/) will observe the activities of file/malware and generate the [report](https://cuckoo.sh/docs/usage/api.html#tasks-report) in JSON format .
+So from above image we understand user will upload file , we check hash with our signautre repositry (contain hash of multiple malware ) and it will proceed to Dynamic analysis . which means file will be executed inside a VM machine and [cuckoo sandbox](https://cuckoosandbox.org/) will observe the activities of file/malware and generate the [report](https://cuckoo.sh/docs/usage/api.html#tasks-report) in JSON format .
 
 After analyzing file cuckoo sandbox generate report in JSON format . Sample [report.json](report.json) file   
 
@@ -67,7 +67,7 @@ Researcher paper : [https://ieeexplore.ieee.org/document/9536608](https://ieeexp
 
 # Additional thing to do 
 we can have chatbot based on langchang/ LAAMA INDEX so that we can chat with context to Report of file analysis .like we can ask question like "does my file delete any of file after execution ?" , "which type of malware it is ?" , "which IP address it calls after execution ? " etc . 
- 
+
 For additional information we can use VirusTotal API's to get general information of file . 
 
 # Cuckoo Sandbox Installation video
